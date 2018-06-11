@@ -10,8 +10,7 @@
 #include <windows.h>
 #include <stdio.h>
 #include <string.h>
-using namespace std;
-
+using namespace std; 
 char numero[50];
 int sum = 0, contar = 0, contarHojas = 0, busq = 0;
 bool busqueda = false;
@@ -51,15 +50,11 @@ int suprimir[100];
 typedef struct Nodo *aux;
 Nodo *arbol = NULL;
 int auxiliar = 0;
-
 /*AVL*/
-
 int sw1 = 0; // Si es 1= insertar, 0=fe
 arbol1 *nodo_p, *nuevo, *arbolavl; //Crea las estructuras de tipo puntero.
 int buscado1 = 0; //Variable para guardar un valor buscado
-
 arbol1 *PadreAB1, *sHijo1, *predecesor1, *abuelo1, *hijoHijo1;
-
 //Recorridos pre, in, post
 void preorden(arbol1 *arbolavl);
 void inorden(arbol1 *arbolavl);
@@ -828,8 +823,6 @@ void Buscado(Nodo *arbol, int n) {		//Funcion para  buscar y eleminar dato
 	}
 }
 
-
-
 void llenarArbol1() {
 	system("cls");
 	fstream arch;
@@ -936,7 +929,6 @@ Nodo *Minimo(Nodo*arbol) {
 	}
 }
 
-
 int diag1;
 int diagin1;
 
@@ -989,8 +981,6 @@ void reemplazarNodoPorderecha(Nodo *arbol, Nodo *nuevoNodo) {//Funcion para reem
 	}
 
 }
-
-
 
 void BuscandoPadre(Nodo *arbol, Nodo *dir) {
 
@@ -1053,11 +1043,8 @@ void eliminaNodo(Nodo *nodoEliminar) { //Funcion para eliminar el dato encontrad
 		system("pause");
 		BuscandoPadre(arbol, nodoEliminar);
 		system("pause");
-
 	}
 }
-
-
 
 Nodo *minimoDerecha(Nodo*arbol) {
 	if (arbol == NULL) {
@@ -1182,7 +1169,6 @@ void llenarArbol() {
 				suprimir[Final] = num2;
 				Final++;
 				token2 = strtok(NULL, ",");
-
 			}
 		}
 	}
@@ -1197,7 +1183,6 @@ bool Buscar(int a) {
 	}
 	return false;
 }
-
 
 void menudeEliminacion() {
 	int a;
@@ -1249,16 +1234,8 @@ void menuabb() {
 	auxiliar = 0;
 	int opc = 0;
 	system("cls");
-	for (int i = 1; i < Final; i++) {
-
-
-	}
-
-	system("cls");
 	do {
-
 		system("cls");
-
 		gotoxy(15, 7);  cout << "**********MENU ABB***********************" << endl;
 		gotoxy(15, 8);  cout << "*1.       CARGAR DATOS                  *" << endl;
 		gotoxy(15, 9);  cout << "*2.       MOSTRAR                       *" << endl,
@@ -1286,7 +1263,6 @@ void menuabb() {
 		case 3:
 			system("cls");
 			menudeEliminacion();
-
 			break;
 		case 4:
 			system("cls");
@@ -1313,12 +1289,9 @@ void menuabb() {
 			break;
 		}
 	} while (opc != 6);
-
 }
 void menuavl() {
 	//intro();
-
-
 	int opcion = 0;
 	while (opcion != 11) {
 		system("cls");
@@ -1335,9 +1308,7 @@ void menuavl() {
 		gotoxy(15, 15); cout<<"* Selecione una opcion :_________                        *\n";
 		gotoxy(15, 16); cout <<"**********************************************************\n";
 		gotoxy(40, 15); cin >> opcion;
-
 		arbolavl = nodo_p;
-
 		switch (opcion) {
 		case 1:
 			llenarArbol1();
@@ -1405,7 +1376,6 @@ void menuavl() {
 			break;
 		}
 	}
-
 	_getch();
 }
 
@@ -1436,8 +1406,6 @@ void MenuPrincipal() {
 		}
 	} while (op != 3);
 }
-
-
 
 int main() {
 	system("color F2");
