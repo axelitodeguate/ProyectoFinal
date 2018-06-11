@@ -1,0 +1,7 @@
+﻿  Source.cpp
+d:\desktop\project54-20180604t051648z-001\project54\source.cpp(840): warning C4101: 'line': variable local sin referencia
+d:\desktop\project54-20180604t051648z-001\project54\source.cpp(1140): warning C4101: 'line': variable local sin referencia
+d:\desktop\project54-20180604t051648z-001\project54\source.cpp(1245): warning C4101: 'dato': variable local sin referencia
+d:\desktop\project54-20180604t051648z-001\project54\source.cpp(278): warning C4715: 'buscarDato': no todas las rutas de acceso de control devuelven un valor
+d:\desktop\project54-20180604t051648z-001\project54\source.cpp(298): warning C4715: 'exiteenArbol': no todas las rutas de acceso de control devuelven un valor
+  Project54.vcxproj -> D:\Desktop\Project54-20180604T051648Z-001\Project54\x64\Debug\Project54.exe

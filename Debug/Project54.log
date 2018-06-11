@@ -1,0 +1,8 @@
+﻿  Source.cpp
+c:\users\valter\documents\visual studio 2015\projects\project54\source.cpp(845): warning C4101: 'line': variable local sin referencia
+c:\users\valter\documents\visual studio 2015\projects\project54\source.cpp(1173): warning C4101: 'line': variable local sin referencia
+c:\users\valter\documents\visual studio 2015\projects\project54\source.cpp(1286): warning C4101: 'dato': variable local sin referencia
+c:\users\valter\documents\visual studio 2015\projects\project54\source.cpp(303): warning C4715: 'exiteenArbol': no todas las rutas de acceso de control devuelven un valor
+c:\users\valter\documents\visual studio 2015\projects\project54\source.cpp(283): warning C4715: 'buscarDato': no todas las rutas de acceso de control devuelven un valor
+  Project54.vcxproj -> c:\users\valter\documents\visual studio 2015\Projects\Project54\Debug\Project54.exe
+  Project54.vcxproj -> c:\users\valter\documents\visual studio 2015\Projects\Project54\Debug\Project54.pdb (Partial PDB)
